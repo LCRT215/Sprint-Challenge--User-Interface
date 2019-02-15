@@ -212,6 +212,14 @@ img.jumbo {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.box {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.box:hover {
+  opacity: 1;
+}
 
 .box.box1 {
   background: teal;
