@@ -162,7 +162,6 @@ img.lambdaLogo {
 }
 header nav a {
   margin: 0 30px;
-  justify-content: flex-end;
   color: black;
   text-decoration: none;
 }
@@ -298,9 +297,40 @@ img.jumbo-about {
 /* About.html */
 
 .container-about-page {
-  border-bottom: dashed 2px black;
+  border-bottom: dashed 1px black;
   padding-bottom: 20px;
 }
 section.container-bottom {
   margin: 40px 0;
+}
+
+section.about-main-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+div.card {
+  width: 375px;
+  margin: 30px auto;
+  border-bottom: dashed black 1px;
+}
+
+div.card img {
+  margin-bottom: 10px;
+}
+
+div.card button {
+  margin-bottom: 15px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10%;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+
+div.card p {
+  margin-bottom: 10px;
 }
