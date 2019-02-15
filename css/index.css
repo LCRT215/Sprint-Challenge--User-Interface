@@ -156,10 +156,12 @@ p {
   display: flex;
   width: 800px;
   margin: 40px auto;
+  align-items: center;
 }
 img.lambdaLogo {
   margin-right: 40px;
 }
+
 header nav a {
   margin: 0 30px;
   color: black;
@@ -172,10 +174,7 @@ header nav a:hover {
 }
 
 img.jumbo {
-  display: flex;
-  margin: 50px;
-  width: 800px;
-  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .container {
@@ -304,11 +303,11 @@ footer nav a {
   text-decoration: none;
 }
 
-img.jumbo-about {
-  margin: 40px;
-}
 /* About.html */
 
+img.jumbo-about {
+  margin-bottom: 40px;
+}
 .container-about-page {
   border-bottom: dashed 1px black;
   padding-bottom: 20px;
