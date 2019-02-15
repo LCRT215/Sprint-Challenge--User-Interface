@@ -295,8 +295,12 @@ footer nav a {
 img.jumbo-about {
   margin: 40px;
 }
+/* About.html */
 
 .container-about-page {
   border-bottom: dashed 2px black;
   padding-bottom: 20px;
+}
+section.container-bottom {
+  margin: 40px 0;
 }
